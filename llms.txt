@@ -1,0 +1,6 @@
+# American Wildflowers
+
+- Purpose: Reference of representative wildflowers by U.S. state.
+- Source data: `../data/wildflowers.csv` in this repository.
+- Refresh process: run `python3 ../generator/build_site.py` from this folder's parent project root.
+- Data notes: one representative row per state in current sample dataset.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/americanwildflowers_site/site/sitemap.xml
