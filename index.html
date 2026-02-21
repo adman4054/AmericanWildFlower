@@ -14,21 +14,39 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="American Wildflowers | State-by-State Guide" />
   <meta name="twitter:description" content="Browse representative wildflowers for all 50 U.S. states with ad-ready content modules and featured seasonal guides." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/style.css" />
   <script type="application/ld+json">{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;WebSite&quot;,&quot;name&quot;:&quot;American Wildflowers&quot;,&quot;url&quot;:&quot;https://example.com/americanwildflowers_site/site/index.html&quot;,&quot;description&quot;:&quot;State-by-state wildflower guide with editorial and ad placement modules.&quot;}</script>
 </head>
 <body>
-  <header>
+  <header class="site-header">
+    <img class="site-logo" src="assets/images/logo/american-wildflowers-logo.png" alt="American Wildflowers logo" loading="eager" />
     <h1 class="site-title">American Wildflowers</h1>
     <p class="lede">A state-by-state hub designed for editorial content, seasonal promotions, and consistent ad inventory across all pages.</p>
     <nav aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="state-texas.html">Featured: Texas</a>
       <a href="#all-states">Browse All States</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
     </nav>
+    <a class="header-cta cta-btn green" href="index.html#all-states">Browse All States</a>
   </header>
 
+  <section class="ad-slot ad-slot--leaderboard" aria-label="Advertisement">
+    <span class="ad-slot__label">Advertisement</span>
+    <div class="ad-slot__box" data-iab-size="728x90" data-ad-unit="/1234567/americanwildflowers/home/leaderboard-1">728 x 90 Leaderboard</div>
+  </section>
+  <section class="ad-slot ad-slot--mobile" aria-label="Advertisement">
+    <span class="ad-slot__label">Advertisement</span>
+    <div class="ad-slot__box" data-iab-size="320x100" data-ad-unit="/1234567/americanwildflowers/home/mobile-1">320 x 100 Mobile Banner</div>
+  </section>
+
   <main id="content">
+
     <section class="hero-grid" aria-labelledby="home-hero-title">
       <div>
         <h2 id="home-hero-title">Discover State Flowers and Regional Bloom Seasons</h2>
@@ -72,13 +90,16 @@
         </article>
       </div>
     </section>
-
     <section class="content-grid section" id="all-states" aria-labelledby="browse-title">
       <aside>
         <article class="card">
           <h3 id="browse-title">Browse by State</h3>
           <p>Jump to any state page. Each page follows the same ad and content layout structure.</p>
         </article>
+        <section class="ad-slot ad-slot--halfpage ad-slot--sidebar" aria-label="Advertisement">
+          <span class="ad-slot__label">Advertisement</span>
+          <div class="ad-slot__box" data-iab-size="300x600" data-ad-unit="/1234567/americanwildflowers/home/halfpage-1">300 x 600 Half Page</div>
+        </section>
         <article class="card newsletter" aria-labelledby="newsletter-title">
           <h3 id="newsletter-title">Get Monthly Bloom Alerts</h3>
           <p>Receive seasonal highlights and top-performing guides.</p>
