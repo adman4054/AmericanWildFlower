@@ -28,7 +28,6 @@ body {
   background-attachment: fixed;
 }
 
-.site-header,
 main,
 footer {
   max-width: 1160px;
@@ -37,11 +36,14 @@ footer {
 }
 
 .site-header {
+  max-width: 1160px;
+  margin: 0 auto 0.25rem;
+  padding: 0.28rem 1.1rem;
   display: grid;
   grid-template-columns: 280px 1fr auto;
   align-items: center;
   column-gap: 1.25rem;
-  row-gap: 0.2rem;
+  row-gap: 0;
   border: 1px solid var(--line);
   border-radius: 6px;
   background:
@@ -56,7 +58,8 @@ footer {
   width: 280px;
   height: auto;
   object-fit: contain;
-  margin: 0.2rem 0;
+  mix-blend-mode: multiply;
+  margin: -0.08rem 0;
   grid-column: 1;
   grid-row: 1 / span 2;
 }
@@ -115,7 +118,7 @@ a {
 .lede {
   grid-column: 2;
   grid-row: 1;
-  margin: 0;
+  margin: 0 0 0.05rem;
   max-width: 34ch;
   font-size: clamp(1.05rem, 2.15vw, 1.18rem);
   color: #3d3933;
@@ -125,6 +128,7 @@ a {
   grid-column: 2;
   grid-row: 2;
   align-self: start;
+  line-height: 1.15;
 }
 
 .header-cta {
