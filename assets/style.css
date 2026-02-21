@@ -96,10 +96,10 @@ nav a {
   background: none;
 }
 
-.home-hero-tulips {
+.home-hero-wildflower {
   background-image:
     linear-gradient(165deg, rgba(20, 28, 36, 0.26), rgba(255, 255, 255, 0.06)),
-    url("images/home/holland-tulips.jpg");
+    url("images/states/state-texas.png");
   background-size: cover, cover;
   background-position: center, center;
   background-repeat: no-repeat;
