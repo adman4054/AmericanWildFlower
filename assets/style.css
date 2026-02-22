@@ -433,6 +433,28 @@ a {
   padding: 0.55rem 0.6rem;
 }
 
+/* Keep the homepage MailerLite block constrained to the sidebar width. */
+#mlb2-37495827.ml-form-embedContainer,
+#mlb2-37495827.ml-form-embedContainer .ml-form-align-center,
+#mlb2-37495827.ml-form-embedContainer .ml-form-embedWrapper,
+#mlb2-37495827.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#mlb2-37495827.ml-form-embedContainer .ml-form-embedWrapper {
+  display: block !important;
+}
+
+#mlb2-37495827.ml-form-embedContainer .ml-form-recaptcha {
+  overflow: hidden;
+}
+
+#mlb2-37495827.ml-form-embedContainer .g-recaptcha {
+  transform: scale(0.9);
+  transform-origin: left top;
+}
+
 input,
 textarea {
   width: 100%;
