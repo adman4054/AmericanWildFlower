@@ -301,18 +301,22 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0.45rem auto;
 }
 
 .leaderboard-link {
   display: block;
-  width: min(970px, 100%);
+  width: 728px;
+  max-width: 100%;
   text-decoration: none;
 }
 
 .leaderboard-image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 728px;
+  max-width: 100%;
+  height: 90px;
+  object-fit: cover;
   border: 1px solid #cdbb9f;
   box-shadow: 0 2px 8px rgba(54, 42, 24, 0.14);
 }
